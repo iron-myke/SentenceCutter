@@ -1,0 +1,15 @@
+{
+    "ngram_window": 3,
+    "ngram_size": 7,
+    "tfid_max_features": 10000,
+    "tfid_max_df": 0.8,
+    "models": {
+        "nb": "models/nb.pkl",
+        "dtc": "models/dtc.pkl",
+        "rft": "models/rft.pkl",
+        "svm": "models/svm.pkl",
+        "sgd": "models/sgd.pkl"
+    },
+    "dataset": "dataset/dataset.csv",
+    "gutenberg": false
+}
